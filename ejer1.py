@@ -22,5 +22,5 @@ def main():
     print("Estado:",os.system(f" ps -p {id_p} -o stat="))
     print("Path del ejecutable:", os.system(f" ps -p {id_p} -o command="))
 
-if __name__ == 'main':
+if __name__ == '__main__':
     main()
